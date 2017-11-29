@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+  <head>
+   <style type ="text/css">
+     div {
+       float:center;
+       text-align: center;
+     }
+    </style>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Web Form</title>
+  </head>
+
+  <body>
+  
+  <form class="feedback" action="project20.html" method="post">
+    <fieldset><legend>Give Us Your Feedback </legend>
+  Full Name: <input type="text" size="20" name="fullname" />
+  <br>
+  Year:<br>
+<input type="radio" name="grade" value="freshman" />Freshman<br />
+<input type="radio" name="grade" value="sophomore" />Sophomore<br />
+<input type="radio" name="grade" value="junior" />Junior<br />
+<input type="radio" name="grade" value="senior" />Senior<br />
+<br>
+Activities:<br >
+<input type="checkbox" name="activities" value="sports" />Sports<br />
+<input type="checkbox" name="activities" value="music" />Music<br />
+<input type="checkbox" name="activities" value="theater" />Theater<br />
+<input type="checkbox" name="activities" value="other" />Other<br />
+<br>
+Quarter:<br >
+<select name="quarter">
+<option value="spring">Spring</option>
+<option value="summar">Summar</option>
+<option value="fall" selected="selected">Fall</option>
+<option value="winter">Winter</option>
+</select>
+<br>
+
+Comments:<br >
+<textarea name="more" rows="8" cols="30">
+Enter your feedback here.
+</textarea>
+<br>
+    <div>
+<input type="submit" value="Click Here to Submit" />
+    </div>
+
+</fieldset>
+
+
+  </body>
+
+</html>
